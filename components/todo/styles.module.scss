@@ -1,0 +1,29 @@
+.todo{
+    background-color: rgb(141, 199, 194);
+    padding:0.2rem 1rem;
+    margin-bottom: 1rem;
+    border-radius:0.2rem;
+    display:flex;
+    justify-content: space-between;
+    min-height: 5rem;
+    &Left{
+        >p{
+            margin-right: 0.5rem;
+        }
+        display:flex;
+        align-items: center;
+    }
+    &Right{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        padding:0.3rem 0.4rem;
+        >input{
+            cursor: pointer;
+        }
+    }
+}
+
+.checked{
+    text-decoration: line-through;
+}

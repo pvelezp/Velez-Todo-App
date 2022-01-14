@@ -1,0 +1,20 @@
+.main{
+    background-color: rgb(53, 52, 49);
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+
+
+    &Form{
+        >h1{
+            margin-bottom: 3rem;
+        }
+        text-align: center;
+        padding-top: 1rem;
+        background-color: rgb(255, 136, 0);
+        width: 70%;
+        max-width: 52.5rem;
+        min-width: 18.7rem;
+    }
+}
+

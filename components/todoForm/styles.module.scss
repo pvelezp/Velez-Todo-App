@@ -1,0 +1,20 @@
+.form{
+    margin-bottom: 3rem;
+    display:flex;
+    justify-content:center;
+    >input{
+        padding:0.4rem;
+        outline-width: 0;
+        border-radius: 5px 0px 0px 5px;
+        border-width: 0;
+        flex:0.6;
+    }
+    >button{
+        padding:0.2rem 1rem;
+        border-radius: 3px;
+        background-color:purple;
+        color:#fff;
+        border-width: 0;
+        cursor: pointer;
+    }
+}
